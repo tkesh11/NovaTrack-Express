@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #D4AF37;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  background: #000000;
+  color: #e6e6e6;
+}
+
+.header-link { color: var(--gold); }

@@ -1,0 +1,36 @@
+{
+  "name": "novatrack-express",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:generate": "prisma generate",
+    "prisma:seed": "ts-node --transpile-only prisma/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "latest",
+    "bcrypt": "^5.1.0",
+    "cookie": "^0.5.0",
+    "jsonwebtoken": "^9.0.0",
+    "next": "^15.0.0",
+    "pg": "^8.10.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.4.2",
+    "@types/react": "18.2.25",
+    "@types/cookie": "^0.5.1",
+    "prisma": "latest",
+    "tailwindcss": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
