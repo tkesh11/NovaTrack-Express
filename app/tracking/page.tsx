@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from 'react'
 
 export default function TrackingPage(){
@@ -11,7 +13,7 @@ export default function TrackingPage(){
     setResult(null)
     if(!tracking) { setError('Enter a tracking number'); return }
     try{
-      const res = await fetch(`/api/track/${encodeURIComponent(tracking)}`)
+      const res = await fetch(`/api/track/?t=${encodeURIComponent(tracking)}`)
       if(!res.ok) throw new Error('Not found')
       const data = await res.json()
       setResult(data)
