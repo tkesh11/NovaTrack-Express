@@ -7,8 +7,9 @@ dotenv.config();
 const prisma = new PrismaClient();
 
 async function main(){
-  const adminEmail = process.env.ADMIN_EMAIL;
-  const adminPassword = process.env.ADMIN_PASSWORD;
+  const adminEmail = "admin@novatrack.com";
+  const adminPassword = "NovaTrack2026!";
+  
 
   if (!adminEmail || !adminPassword) {
     console.log('ADMIN_EMAIL or ADMIN_PASSWORD not set in env — skipping admin seed.');
