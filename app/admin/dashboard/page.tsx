@@ -6,8 +6,9 @@ import prisma from '@/lib/prisma'
 import { verifyToken } from '@/lib/auth'
 
 export default async function AdminDashboard(){
-  const cookieStore = cookies();
-  const token = cookieStore.get('novatrack_admin')?.value;
+const cookieStore = await cookies();
+const token = cookieStore.get('novatrack_admin')?.value;
+  
   const verified = token ? verifyToken(token) : null;
   if(!verified) redirect('/admin/login');
 
