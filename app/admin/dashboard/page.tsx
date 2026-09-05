@@ -24,7 +24,7 @@ const token = cookieStore.get('novatrack_admin')?.value;
         <div>
           <h3 className="text-lg text-gold">Shipments</h3>
           <div className="mt-3 space-y-3">
-            {shipments.map(s=> (
+            {shipments.map((s: any) => (
               <div key={s.id} className="bg-brand-gray p-3 rounded">
                 <div className="flex justify-between">
                   <div>
