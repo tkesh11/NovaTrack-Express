@@ -41,7 +41,7 @@ const token = cookieStore.get('novatrack_admin')?.value;
         <div>
           <h3 className="text-lg text-gold">Customer Feedback</h3>
           <div className="mt-3 space-y-3">
-            {feedback.map(f=> (
+            {feedback.map((f: any) => (
               <div key={f.id} className="bg-brand-gray p-3 rounded">
                 <div className="font-semibold">{f.name || 'Anonymous'}</div>
                 <div className="text-sm text-gray-300">{f.email}</div>
