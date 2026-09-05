@@ -22,7 +22,7 @@ model Shipment {
   origin         String?
   destination    String?
   details        String?
-  history        Json     @default([])
+  history Json @default("[]")
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
 }
