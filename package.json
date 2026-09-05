@@ -27,6 +27,7 @@
     "@types/node": "^20.4.2",
     "@types/react": "18.2.25",
     "@types/cookie": "^0.5.1",
+    "@types/bcrypt": "^5.0.2",
     "prisma": "latest",
     "tailwindcss": "^4.0.0",
     "autoprefixer": "^10.4.14",
