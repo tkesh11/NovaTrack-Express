@@ -23,7 +23,9 @@ model Shipment {
   destination    String?
     senderName   String?
     receiverName String?
-  details        String?
+currentLocation   String?
+estimatedDelivery String?
+   details        String?
   history Json @default("[]")
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
