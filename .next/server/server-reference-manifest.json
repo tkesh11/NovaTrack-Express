@@ -1,0 +1,19 @@
+{
+  "node": {
+    "00651acb7b67707605633cd038694fd19eed24183d": {
+      "workers": {
+        "app/admin/dashboard/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fworkspaces%2FNovaTrack-Express%2Fapp%2Fadmin%2Fdashboard%2Fpage.tsx%22%2C%5B%7B%22id%22%3A%2200651acb7b67707605633cd038694fd19eed24183d%22%2C%22exportedName%22%3A%22default%22%2C%22filename%22%3A%22app%2Fadmin%2Fdashboard%2Fpage.tsx%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/dashboard/page": "rsc"
+      },
+      "filename": "app/admin/dashboard/page.tsx",
+      "exportedName": "default"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "hbjSPHrZl7+TedqYGmOQ8EaxaG5ohGD9VscUrTYvx8k="
+}
