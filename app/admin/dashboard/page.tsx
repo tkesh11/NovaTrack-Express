@@ -38,12 +38,11 @@ const token = cookieStore.get('novatrack_admin')?.value;
                    <div>ETA: {s.estimatedDelivery || "—"}</div>
                    </div>
                    </div>
-                  <div className="text-sm text-gray-400">{new Date(s.updatedAt).toLocaleString()}</div>
+                  <div className="text-sm text-gray-400">{new Date(s.updatedAt).toLocaleString()}
+                 </div>
+                 ))}
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
+                </div>
 
         <div>
           <h3 className="text-lg text-gold">Customer Feedback</h3>
