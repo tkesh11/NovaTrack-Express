@@ -33,7 +33,7 @@ const token = cookieStore.get('novatrack_admin')?.value;
                    <div>From: {s.origin}</div>
                    <div>To: {s.destination}</div><div>Sender: {s.senderName || "—"}</div>
                    <div>Sender: {s.senderName || "—"}</div>
-                    <div>Receiver: {s.receiverName || "—"}</div>
+                   <div>Receiver: {s.receiverName || "—"}</div>
                    <div>Current: {s.currentLocation || "—"}</div>
                    <div>ETA: {s.estimatedDelivery || "—"}</div>
                    </div>
