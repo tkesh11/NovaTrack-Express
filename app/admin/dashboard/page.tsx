@@ -12,8 +12,8 @@ const token = cookieStore.get('novatrack_admin')?.value;
   const verified = token ? verifyToken(token) : null;
   if(!verified) redirect('/admin/login');
 
-  const shipments = await prisma.shipment.findMany({ orderBy: { updatedAt: 'desc' }, take: 50 })
-  const feedback = await prisma.feedback.findMany({ orderBy: { createdAt: 'desc' }, take: 50 })
+  const shipments = await prisma.shipment.findMany({ orderBy: { updatedAt: 'desc' }, take: 50 });
+  const feedback = await prisma.feedback.findMany({ orderBy: { createdAt: 'desc' }, take: 50 });
 
   return (
     <section>
