@@ -31,20 +31,20 @@ const token = cookieStore.get('novatrack_admin')?.value;
                     <div className="font-semibold">{s.trackingNumber} — {s.status}</div>
                     <div className="text-sm text-gray-300">{s.origin} → {s.destination}</div>
                    <div>From: {s.origin}</div>
-                   <div>To: {s.destination}</div><div>Sender: {s.senderName || "—"}</div>
+                   <div>To: {s.destination}</div>
                    <div>Sender: {s.senderName || "—"}</div>
                    <div>Receiver: {s.receiverName || "—"}</div>
                    <div>Current: {s.currentLocation || "—"}</div>
                    <div>ETA: {s.estimatedDelivery || "—"}</div>
                    </div>
                    </div>
-                  <div className="text-sm text-gray-400">{new Date(s.updatedAt).toLocaleString()}
+                  <div className="text-sm text-gray-400">{new Date(s.updatedAt).toLocaleString()}</div>
                  </div>
                  ))}
                 </div>
                 </div>
 
-                <div>
+                
           <h3 className="text-lg text-gold">Customer Feedback</h3>
           <div className="mt-3 space-y-3">
             {feedback.map((f: any) => (
