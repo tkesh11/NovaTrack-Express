@@ -43,8 +43,13 @@ const token = cookieStore.get('novatrack_admin')?.value;
                  ))}
                 </div>
                 </div>
+<<<<<<< HEAD
                 </div>
                 <section className="bg-brand-black rounded-xl p-4">
+=======
+ <section className="bg-brand-black rounded-x1 p-4">
+                
+>>>>>>> e320a45 (Fix admin dashboard JSX)
           <h3 className="text-lg text-gold">Customer Feedback</h3>
           <div className="mt-3 space-y-3">
             {feedback.map((f: any) => (
@@ -55,6 +60,14 @@ const token = cookieStore.get('novatrack_admin')?.value;
               </div>
             ))}
           </div>
+<<<<<<< HEAD
         </section>
         );
        }
+=======
+         </div>
+         </div>
+        
+       );
+       }
+>>>>>>> e320a45 (Fix admin dashboard JSX)
