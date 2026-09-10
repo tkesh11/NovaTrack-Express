@@ -56,14 +56,6 @@ const token = cookieStore.get('novatrack_admin')?.value;
               </div>
             ))}
           </div>
-<<<<<<< HEAD
-        </section>
+         </section>
         );
        }
-=======
-         </div>
-         </div>
-        
-       );
-       }
->>>>>>> e320a45 (Fix admin dashboard JSX)
