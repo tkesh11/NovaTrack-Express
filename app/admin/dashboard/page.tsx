@@ -56,7 +56,7 @@ const token = cookieStore.get('novatrack_admin')?.value;
               </div>
             ))}
           </div>
-         </div
+         </div>
         </section>
          );
        }
