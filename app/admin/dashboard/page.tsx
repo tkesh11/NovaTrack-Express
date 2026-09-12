@@ -45,7 +45,7 @@ const token = cookieStore.get('novatrack_admin')?.value;
                 
 
 
-                <section className="bg-brand-black rounded-xl p-4">
+                <div className="bg-brand-black rounded-xl p-4">
               <h3 className="text-lg text-gold">Customer Feedback</h3>
              <div className="mt-3 space-y-3">
             {feedback.map((f: any) => (
@@ -56,7 +56,7 @@ const token = cookieStore.get('novatrack_admin')?.value;
               </div>
             ))}
           </div>
-         </section>
+         </div
         </section>
          );
        }
