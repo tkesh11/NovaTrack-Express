@@ -57,7 +57,8 @@ export default async function AdminDashboard() {
               </div>
             ))}
           </div>
-        <div className="bg-brand-black rounded-xl p-4">
+         </div>
+         <div className="bg-brand-black rounded-xl p-4">
           <h3 className="text-lg text-gold">Customer Feedback</h3>
 
           <div className="mt-3 space-y-3">
