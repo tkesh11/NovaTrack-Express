@@ -57,20 +57,14 @@ export default async function AdminDashboard() {
               </div>
             ))}
           </div>
-        </div>
-
         <div className="bg-brand-black rounded-xl p-4">
           <h3 className="text-lg text-gold">Customer Feedback</h3>
 
           <div className="mt-3 space-y-3">
             {feedback.map((f: any) => (
               <div key={f.id} className="bg-brand-gray p-3 rounded">
-                <div className="font-semibold">
-                  {f.name || 'Anonymous'}
-                </div>
-
+                <div className="font-semibold">{f.name || "Anonymous"}</div>
                 <div className="text-sm text-gray-300">{f.email}</div>
-
                 <p className="mt-2 text-gray-300">{f.message}</p>
               </div>
             ))}
