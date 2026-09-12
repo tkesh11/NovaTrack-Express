@@ -43,7 +43,7 @@ const token = cookieStore.get('novatrack_admin')?.value;
                  ))}
                 </div>
                </div>        
-              </div>
+
 
                 <div className="bg-brand-black rounded-xl p-4">
               <h3 className="text-lg text-gold">Customer Feedback</h3>
@@ -57,7 +57,7 @@ const token = cookieStore.get('novatrack_admin')?.value;
             ))}
           </div>
          </div>
-        </div>
+       </div>
        </section>
-       );
-       }
+        );
+        }
